@@ -12,8 +12,10 @@ class Configuration {
 const config = new Configuration();
 console.log(config);
 
+//jika ingin ganti isi nilai field
 Configuration.author = "Budi Saputra";
 
+//cara akses static class field
 console.log(Configuration.name);
 console.log(Configuration.version);
 console.log(Configuration.author);
